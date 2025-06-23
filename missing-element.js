@@ -9,8 +9,8 @@ function onPageLoad()
 
     var exerciceBody = document.getElementById("exercice-wrapper");
     firstPart = [ "Wyrażanie uczuć i potrzeb bez przemocy", "Je me", "J'ai", "Quand tu cries, je me sens", "Est-ce que tu", "Je", "J'", "Peux-tu", "Je suis", "Merci de", "Comment", "J'ai besoin de", "Je suis", "Quand tu dis ça, je", "Puis-je", "J'aimerais", "Tu", "Je" ];
-    secondPart = [ "Uzupełnij zdania odpowiednimi słowami", "content(e) quand tu m'écoutes.", "de parler avec toi.", ".", "m'aider, s'il te plaît ?", "ton point de vue.", "quand nous travaillons ensemble.", "ce que tu ressens ?", "pour mon retard.", "tes idées avec moi.", "-tu aujourd'hui ?", "avant de répondre.", "pour ton aide.", "blessé(e).", "ma frustration ?", "tu sois à l'heure.", "important(e) pour moi.", "de ton soutien." ];
-    missingElement = [ "Communication CNV", "sens", "besoin", "triste", "pourrais", "comprends", "apprécie", "m'expliquer", "désolé(e)", "partager", "te sens", "réfléchir", "reconnaissant(e)", "me sens", "exprimer", "que", "es", "suis touché(e)" ];
+    secondPart = [ "Gdy trzeba uzgodnić, stosuj formę żeńską", "contente quand tu m'écoutes.", "de parler avec toi.", ".", "m'aider, s'il te plaît ?", "ton point de vue.", "quand nous travaillons ensemble.", "ce que tu ressens ?", "pour mon retard.", "tes idées avec moi.", "-tu aujourd'hui ?", "avant de répondre.", "pour ton aide.", "blessée.", "ma frustration ?", "tu sois à l'heure.", "importante pour moi.", "de ton soutien." ];
+    missingElement = [ "Communication CNV", "sens", "besoin", "triste", "pourrais", "comprends", "apprécie", "m'expliquer", "désolée", "partager", "te sens", "réfléchir", "reconnaissante", "me sens", "exprimer", "que", "es", "suis touchée" ];
     hints = [ "nan", "czuję", "potrzeba", "smutek", "uprzejma prośba", "zrozumienie", "docenianie", "prośba o wyjaśnienie", "przeprosiny", "dzielenie się", "pytanie o uczucia", "czas do namysłu", "wdzięczność", "uczucie zranienia", "wyrażanie emocji", "prośba/życzenie", "wartość osoby", "wzruszenie" ];
 
     var myForm = document.createElement("form");
